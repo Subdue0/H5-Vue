@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>demo</title>
+		<!-- 引入初始化css -->
+		<link rel="stylesheet" href="/assets/css/normalize.css">
+		<!-- 引入vant UI框架css -->
+		<link rel="stylesheet" href="/assets/css/vant.css">
+	</head>
+	<body>
+	    <div id="app">
+			<router-view></router-view>
+		</div>
+		<!-- 引入vue框架 -->
+		<script src="/vendor/vue.js"></script>
+		<!-- 引入vant UI框架 -->
+		<script src="/vendor/vant.min.js"></script>
+		<!-- 引入加载vue单页面库 -->
+		<script src="/vendor/httpVueLoader.js"></script>
+		<!-- 引入Qs库 -->
+		<script src="/vendor/qs.js"></script>
+		<!-- 引入axios库 -->
+		<script src="/vendor/axios.min.js"></script>
+		<!-- 引入router库和router配置 -->
+		<script src="/vendor/vue-router.js"></script>
+		<script src="/router/index.js"></script>
+		<!-- 引入全局变量配置 -->
+		<script src="/config/env.js"></script>
+		<!-- 引入token存取 -->
+		<script src="/utils/auth.js"></script>
+		<!-- 引入axios封装 -->
+		<script src="/utils/request.js"></script>
+		<!-- 引入apis封装 -->
+		<script src="/apis/apis.js"></script>
+		<!-- 创建Vue实例 -->
+		<script src="/main.js"></script>
+	</body>
+</html>

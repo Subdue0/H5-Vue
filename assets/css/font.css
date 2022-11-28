@@ -1,0 +1,19 @@
+@font-face {
+    font-family: apple-Bold;
+    src: url(/app/fonts/SanFranciscoDisplay-Bold-4.otf);
+}
+
+@font-face {
+    font-family: apple-Regular;
+    src: url(/app/fonts/SanFranciscoDisplay-Regular-2.otf);
+}
+
+@font-face {
+    font-family: android-Bold;
+    src: url(/app/fonts/Roboto-Bold-3.ttf);
+}
+
+@font-face {
+    font-family: android-Bold;
+    src: url(/app/fonts/Roboto-Regular-14.ttf);
+}
