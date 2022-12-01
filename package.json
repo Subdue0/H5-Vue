@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "H5基础框架--基于vue+vue-router+vant+axios的移动端解决方案",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subdue0/H5-Vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subdue0/H5-Vue/issues"
+  },
+  "homepage": "https://github.com/Subdue0/H5-Vue#readme"
+}
